@@ -298,7 +298,7 @@ const Dashboard = () => {
                                     </h4>
                                     <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar">
                                         <pre className="text-sm text-surface-400 whitespace-pre-wrap leading-relaxed font-mono p-6 rounded-2xl bg-surface-950/50 border border-surface-800 selection:bg-primary-500/30">
-                                            {result.extracted_text || 'No text extracted.'}
+                                            {result.extracted_preview || 'No text extracted.'}
                                         </pre>
                                     </div>
                                 </div>
